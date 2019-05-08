@@ -12,8 +12,9 @@ git tag -a v0.1.0 -m "First release"
 git push origin v0.1.0
 
 # preview
-goreleaser release --skip-publish
+goreleaser --rm-dist --debug --skip-validate --skip-publish
 
 # actually create the packages and publish the release
 goreleaser
+
 ```
