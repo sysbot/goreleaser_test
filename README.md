@@ -1,0 +1,2 @@
+# goreleaser_test
+test
